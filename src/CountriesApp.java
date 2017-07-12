@@ -2,11 +2,12 @@ import java.io.*;
 import java.util.Scanner;
 
 /**
+ * This is a simple program to demo for creating, reading and
+ * writing to a txt file.
  * Created by kuwu on 2017/07/11.
  */
 public class CountriesApp {
-
-//TODO add validation
+  
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -44,6 +45,7 @@ public class CountriesApp {
     menuNum = validNum(scan, menuNum);
 
   }
+
   // input check
   private static int validNum(Scanner scan, int menuNum) {
     while (menuNum != 1 && menuNum != 2 && menuNum != 3) {
